@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo {
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.titulo, .nome input::placeholder, th {
+    font-family: 'Roboto';
+}
+
+.card {
+    display: flex;
+}
+
+
+.nome input, button {
+    border: 1px solid #bdbdbd;
+}
+
+.nome input, button {
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.nome input {
+    width: 300px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.card button {
+    width: 95px;
+}
+
+.nome input::placeholder {
+    padding: 10px;
+}
+
+thead {
+    background-color: #ccc;
+    border: 1px solid #000;
+}
+
+th {
+    padding: 5px;
+}
+
+td {
+    padding: 2px;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+tr:hover {
+    background-color: #ccc;
+}
+
+.conteudo table {
+    width: 400px;
+    border: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table td img{
+    width: 15px;
+    height: 15px;
+}
+
